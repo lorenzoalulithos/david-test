@@ -1,22 +1,16 @@
-# laravel-12-template-name
+# David Test
 
-laravel-12-template-description
-
-<!--delete-->
----
-This repo can be used to scaffold a new Laravel project. Follow these steps to get started:
-
-1. Press the `Use template` button at the top of this repo to create a new repo with the contents of this skeleton.
-2. Run `php init.php` to run a script that will replace all placeholders throughout all the files. It also create
-   a `.env` file.
-3. Have fun with your new Laravel project.
-
----
-<!--/delete-->
+Here we are with David Test
 
 ## Description
 
-Laravel template to boot a fresh new Laravel project in seconds.
+📋 To-Do — Gestione Prodotti e Categorie
+
+* Creazione Modello Product con campi `price`, `color` e `category_id`
+* Creazione Modello Category con campo `name` (Per generarli puoi utilizzare un piccolo seeder)
+* Realizzazione FE (non serve curare lo stile) con lista dei prodotti e filtri dinamici su `color` e `category` (Mi piacerebbe usassi alpine anche in CDN, hai piena autonomia)
+* Piccolo form di creazione/aggiornamento prodotto
+* Creazione di un paio di test (ce gia installato phpunit, ma puoi usare anche pest)
 
 ## Startup
 
@@ -99,46 +93,10 @@ or:
 ddev exec ./vendor/bin/phpunit
 ```
 
-## Coverage
-
-Run tests coverage with:
-
-```shell
-ddev xdebug
-```
-
-and:
-
-```shell
-ddev exec XDEBUG_MODE=coverage php artisan test
-```
-
-Reports are in `public/coverage` and visible at
+### Local Development
 
 ```
-https://laravel-12-template.ddev.site/coverage
-```
-
-## Queues
-
-By defaults, queues are sync:
-
-```dotenv
-QUEUE_CONNECTION=sync
-```
-
-It's possibile to set the async with:
-
-```dotenv
-QUEUE_CONNECTION=redis
-```
-
-Redis is used as message queues manager.
-
-### Local development
-
-```shell
-ddev php artisan queue:work
+https://david-test.ddev.site/coverage
 ```
 
 ### Test
