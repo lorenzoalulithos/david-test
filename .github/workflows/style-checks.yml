@@ -19,11 +19,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          composer config "http-basic.nova.laravel.com" "${{ secrets.NOVA_USERNAME }}" "${{ secrets.NOVA_PASSWORD }}"
           composer install -n --prefer-dist
-
-      - name: Publish Nova assets
-        run: php artisan nova:publish
 
       - name: Run checks
         run: composer test-style
