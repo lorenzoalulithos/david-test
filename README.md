@@ -1,18 +1,8 @@
-# laravel-12-template-name
+# David Test
 
-laravel-12-template-description
+Here we are with David Test
 
-<!--delete-->
----
-This repo can be used to scaffold a new Laravel project. Follow these steps to get started:
 
-1. Press the `Use template` button at the top of this repo to create a new repo with the contents of this skeleton.
-2. Run `php init.php` to run a script that will replace all placeholders throughout all the files. It also create
-   a `.env` file.
-3. Have fun with your new Laravel project.
-
----
-<!--/delete-->
 
 ## Description
 
@@ -116,7 +106,7 @@ ddev exec XDEBUG_MODE=coverage php artisan test
 Reports are in `public/coverage` and visible at
 
 ```
-https://laravel-12-template.ddev.site/coverage
+https://david-test.ddev.site/coverage
 ```
 
 ## Queues
